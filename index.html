@@ -16,19 +16,26 @@
   <main>
 
 
-    <nav id="navbar" style="background-color: #6c757d;">
-        <div id="navLinks">
-          <a id="link1">Lorem ipsum</a>
+    <nav  id="navbar"  style="background-color: #6c757d;">
+    <div id="logo">
+      <a id="link1">Lorem ipsum</a>
+      <span class="btn_menu"><i class="fa fa-bars" style="font-size:36px;color:white;padding-right: 30px" onclick="showMenu()"></i></span>
+    </div>
+    
+    <div id="smallMenuId" class="show">
+        <div id="navLinks" class="smallMenu">
           <a id="link2">Dolor</a>
           <a id="link3">Sit</a>
           <a id="link4">Amet</a>
+          <a id="link5">Opciones</a>
         </div>
-        <div id="searchBar">
+
+        <div id="searchBar" class="smallMenu">
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit">Search</button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
           </form>
         </div>
+      </div>
 
     </nav>
 
@@ -49,4 +56,4 @@
   <script src="js/index.js"></script>
 </body>
 
-</html>
+</html> 

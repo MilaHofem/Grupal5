@@ -1,26 +1,31 @@
 
+    
 #navbar{
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
+padding: 0.5%;
+
 }
 
+#smallMenuId{
+display: flex;
+flex-basis: 80%;
+align-items: center;
+}
 
 #navLinks{
     padding: 0% 1%;
     flex-basis: 70%;
+    cursor: pointer;
 }
 
-#searchBar{
-    padding: 0.5%;
-}
 
 #link1{
     color:white;
     font-size: larger;
     font-weight: 500;
-    padding-right: 10%;
 }
 
 #link2{
@@ -33,12 +38,61 @@ justify-content: space-between;
     color:white;
     font-weight: 300;
     font-size: small;
-    padding-right: 20%;
+    padding-right: 17%;
 }
 
 #link4{
     color:white;
     font-weight: 200;
     font-size: smaller;
-    padding-right: 30%;
+    padding-right: 24%;
+}
+#link5{
+    color:white;
+    font-weight: 200;
+    font-size: smaller;
+    display: none;
+}
+
+.btn_menu{
+    display: none;
+}
+#logo{
+    flex-basis: 20%;
+}
+
+@media screen and (max-width: 900px){
+    .btn_menu{
+        display: flex;
+    }
+    #navbar{
+        justify-content: start;
+        flex-direction: column;
+    }
+    .smallMenu{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    #smallMenuId{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #link5{
+        display:flex;
+    }
+
+    #logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #smallMenuId.show{
+        display: none;
+    }
+
 }
