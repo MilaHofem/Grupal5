@@ -1,0 +1,44 @@
+
+#navbar{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+
+#navLinks{
+    padding: 0% 1%;
+    flex-basis: 70%;
+}
+
+#searchBar{
+    padding: 0.5%;
+}
+
+#link1{
+    color:white;
+    font-size: larger;
+    font-weight: 500;
+    padding-right: 10%;
+}
+
+#link2{
+    color:white;
+    font-size: medium;
+    font-weight: 400;
+    padding-right: 15%;
+}
+#link3{
+    color:white;
+    font-weight: 300;
+    font-size: small;
+    padding-right: 20%;
+}
+
+#link4{
+    color:white;
+    font-weight: 200;
+    font-size: smaller;
+    padding-right: 30%;
+}
