@@ -48,7 +48,6 @@ justify-content: flex-end;
     font-size: smaller;
     padding-right: 24%;
 }
-
 #link5{
     color:white;
     font-weight: 200;
@@ -59,7 +58,6 @@ justify-content: flex-end;
 .btn_menu{
     display: none;
 }
-
 #logo{
     flex-basis: 20%;
 }
