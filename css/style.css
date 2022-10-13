@@ -1,0 +1,146 @@
+
+    
+#navbar{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0.5%;
+
+}
+
+#smallMenuId{
+display: flex;
+flex-basis: 80%;
+align-items: center;
+justify-content: flex-end;
+}
+
+#navLinks{
+    padding: 0% 1%;
+    flex-basis: 70%;
+    cursor: pointer;
+}
+
+
+#link1{
+    color:white;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#link2{
+    color:white;
+    font-size: medium;
+    font-weight: 400;
+    padding-right: 15%;
+}
+#link3{
+    color:white;
+    font-weight: 300;
+    font-size: small;
+    padding-right: 17%;
+}
+
+#link4{
+    color:white;
+    font-weight: 200;
+    font-size: smaller;
+    padding-right: 24%;
+}
+
+#link5{
+    color:white;
+    font-weight: 200;
+    font-size: smaller;
+    display: none;
+}
+
+.btn_menu{
+    display: none;
+}
+
+#logo{
+    flex-basis: 20%;
+}
+
+.column{
+    text-align: justify;
+    
+}
+
+@media screen and (max-width: 768px){
+    #searchBar{
+        margin-top: 4px;
+        width: 99.9%;
+    }
+
+    .btn_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;    
+        border-color: #798188;
+
+        border-radius: 10%;
+        border-style: solid;
+        width: 39px;
+        margin-right: 30px;
+
+    }
+
+    .btn_menu div{  
+            
+            width: 23px;
+            height: 3px;
+            border-radius: 10%;
+            background-color: #b5babd;
+            margin: 0px 0;
+    }
+    .btn_menu:hover{
+        border-color: white;
+    }
+
+    #navbar{
+        justify-content: start;
+        flex-direction: column;
+    }
+    .smallMenu{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    #smallMenuId{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        width: 100%;
+    }
+    #link2{
+        padding-top: 7px;
+    }
+    #link3{
+        padding-top: 7px;
+    }
+    #link4{
+        padding-top: 7px;
+    }
+    #link5{
+        display:flex;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+  
+
+    #logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #smallMenuId.show{
+        display: none;
+    }
+
+}
